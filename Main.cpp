@@ -27,6 +27,7 @@ void MainRobot::AutonomousInit() {
 
 
 void MainRobot::AutonomousPeriodic() {
+	myRobot.ArcadeDrive(0, 0, false);
 }
 
 
